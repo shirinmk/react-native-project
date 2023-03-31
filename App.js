@@ -14,7 +14,12 @@ export default function App() {
     //show button top
     // show button down
     <View style={styles.container}>
-      <CarItem />
+      <CarItem
+        name={"Model X"}
+        tagLine={"order online for"}
+        tagLineCTA={"TouchLess Delivery"}
+        image={require("./assets/images/Model3.jpeg")}
+      />
       {/* <CarItem /> */}
     </View>
   );
